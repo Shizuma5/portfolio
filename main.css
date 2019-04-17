@@ -3,3 +3,40 @@
     flex-direction: column;
     height: 100%;
 }
+p.intro-summary {
+    font-weight: 700;
+}
+p.allow-newline {
+    white-space: pre-wrap;
+}
+p.margin-line {
+    margin-bottom: 20px
+}
+p {
+    font-size: large;
+}
+
+h2.under {
+    border-bottom: solid 3px #87CEFA;
+}
+h3.heading {
+    position: relative;
+    display: inline-block;
+    padding: 0 55px;
+}
+h3.heading:before, h3.heading:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 45px;
+    height: 1px;
+    background-color: black;
+}
+
+h3.heading:before {
+    left:0;
+}
+h3.heading:after {
+    right: 0;
+}
