@@ -16,6 +16,11 @@ p {
     font-size: large;
 }
 
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
 h2.under {
     border-bottom: solid 3px #87CEFA;
 }
